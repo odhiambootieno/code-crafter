@@ -10,7 +10,7 @@ Welcome to Code-Crafter! This site highlights my skills, projects and interests.
 - [Installation](#installation)
 - [Contribution](#contribution)
 - [Licence](#license)
--[Contact](#contact)
+- [Contact](#contact)
 
 ## About Me
 
@@ -31,13 +31,16 @@ I'm Brian Odhiambo Otieno, a dedicated web developer with experience in both fuu
 To view this project locally, follow these steps:
 
 1. Clone the repository:
+
 '''bash
 git clone git@github.com:macbook/code-crafter.git
-'''
-2. Navigate to the projects directory
+'''bass
+
+2. Navigate to the project directory
+
 '''bash
 cd code-crafter
-'''
+'''bash
 
 3. Open 'index.html' in your web browser
 
@@ -51,13 +54,17 @@ If you would like to contribute to this project, feel free to follow these steps
 git checkout -b feature/your feature
 '''
 3. Commit your changes
+
 '''bash
 git commit -m "add a new faeture"
 '''bash
+
 4. Push to the branch
+
 '''bash
 git push origin fearture/YourFeature
 '''bash
+
 5. Open a pull request
 
 ## Licence
@@ -65,5 +72,5 @@ git push origin fearture/YourFeature
 This project is licensed under the MIT License.
 
 ## Contact 
-Brian Otieno - [Gmail](mail to:brianmkcnight@gmail.com)
+Brian Otieno - [Gmail](mail to: brianmkcnight@gmail.com)
 Portfolio [Portfolio]
