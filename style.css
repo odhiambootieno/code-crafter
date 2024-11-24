@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: darkorange;
 }
 
 
@@ -11,6 +12,55 @@ header {
     color: red;
     padding: 10px 0;
     text-align: center;
+}
+.my-header h1 {
+top: 1000px;
+color: green;
+}
+
+#skills{
+    position: absolute;
+    top: 115px;
+    left: 0;
+    text-align: center;
+    width: 15%;
+    height: 250px;
+    border: none;
+}
+
+#skills > ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about-me{
+    position: absolute;
+    top: 115px;
+    left: 0;
+    text-align: center;
+    width: 65%;
+    height: 400px;
+    margin-left: 310px;
+    border: 3px solid red;
+}
+#profile-photo{
+    position: absolute;
+    top: 115px;
+    width: 10%;
+    margin-left: 87%;
+    border: none;
+    text-align: center;
+}
+.profile-image{
+    width: 100%;
+    height: 200px;
+    margin-left: 0px;
+}
+
+
+#contact{
+    margin-top: 400px;
+    height: 200px;
 }
 
 
@@ -33,19 +83,22 @@ section {
     padding: 20px;
 }
 
+#nav-links {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 400px;
+    height: 50px;
+    border: 3px solid #333;
+  }
+
+
 footer {
     text-align: center;
     padding: 10px 0;
     background: #333;
     color: #fff;
-    position: relative;
+    /* position: relative; */
     bottom: 0%;
     width: 100%;
-}
-
-img {
-    max-width: 100; /* make the image responsive */
-    height: auto;   /* maintain the aspect ratio */
-    border-radius: 20px 0; /* add rounded corner */
-    margin: 20px; /* add space above and below the image */
 }
