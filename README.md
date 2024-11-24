@@ -33,14 +33,14 @@ To view this project locally, follow these steps:
 1. Clone the repository:
 
 '''bash
-git clone git@github.com:macbook/code-crafter.git
-'''bass
+git clone git@github.com:MacBook/code-crafter.git
+'''
 
 2. Navigate to the project directory
 
 '''bash
 cd code-crafter
-'''bash
+'''
 
 3. Open 'index.html' in your web browser
 
@@ -57,13 +57,13 @@ git checkout -b feature/your feature
 
 '''bash
 git commit -m "add a new faeture"
-'''bash
+'''
 
 4. Push to the branch
 
 '''bash
 git push origin fearture/YourFeature
-'''bash
+'''
 
 5. Open a pull request
 
