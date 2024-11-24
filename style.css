@@ -41,8 +41,8 @@ color: green;
     width: 65%;
     height: 400px;
     margin-left: 310px;
-    border-left: 3px solid red;
-    border-right: 3px solid red;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
     border-top: none;
     border-bottom: none;
 }
