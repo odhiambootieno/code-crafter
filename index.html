@@ -4,9 +4,11 @@
    <link rel="stylesheet" href="style.css"/>
    <title>Code-Crafter</title>   
  </head>
+ <div id="main-container">
  <body>
     <header>
-      <h1>Hello World</h1>
+      <h1 class="my-header">My Profile</h1>
+      <div id="nav-links">
       <nav>
         <ul>
            <li><a href="#about">About</a></li>
@@ -14,32 +16,48 @@
            <li><a href="#contact>">Contact</a></li>
         </ul>
       </nav>
+      </div>
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <img src="Downloads/kin.jpeg" alt="a photo of me">
-        <p>I'm Brian Odhiambo Otieno, a dedicated web developer with experience in both full-stack and front-end development. 
-           Creating useful, user friendly websites and applications is my area of experties. 
-           I work hard to provide the greatest digital solution suited to the requirements of my clients.</p>
+        <div id="skills"> 
+            <h3><u>Skills</u></h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+             </ul>
 
-           <div class="relative";</div>
+        </div>
+
+        <div id="about-me">
+            <h2><u>About Me</u></h2>
+            <p>I'm Brian Odhiambo Otieno, a dedicated web developer with experience in both full-stack and front-end development. 
+               Creating useful, user friendly websites and applications is my area of experties. 
+               I work hard to provide the greatest digital solution suited to the requirements of my clients.</p>
+               <h2>My Projects</h2>
+        <p>Building a website using HTML, CSS and JavaScript. Incorporating content, styling, and functionality.</p>
+    </div>
+
+        <div id="profile-photo">
+        <img src="/Users/macbook/Documents/image2.jpeg" alt="a photo of me" class="profile-image"/>
+        </div>
+       
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <p>Building a website using HTML, CSS and JavaScript. Incorporating content, styling, and functionality</p>
-    </section>
+   
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Brian Otieno - [Gmail](mail to: brianmkcnight@gmail.com) Portfolio [Portfolio]</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Brian Otieno</p>
+    <footer id="contact">
+        <div id="footer">
+            <h3>Contact</h3>
+            <p>Brian Otieno - [Gmail](mail to: brianmkcnight@gmail.com) Portfolio [Portfolio]</p>
+            <p>&copy; 2024 Brian Otieno</p>
+        </div>
+        
     </footer>
 
-   <script src="script.js"></script>
+   <!-- <script src="script.js"></script> -->
  </body>
+ </div>
 </html>
